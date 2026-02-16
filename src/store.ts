@@ -32,7 +32,7 @@ export const usePatientStore = create<PatientState>()(
       }))
     },
     getPatientById: (id) => {
-      set((state) => ({
+      set(() => ({
         activeId: id
       }))
     },

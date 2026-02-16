@@ -1,4 +1,3 @@
-import type { Patient } from "../types"
 
 type PatientDetailItemProps = {
   label: string
